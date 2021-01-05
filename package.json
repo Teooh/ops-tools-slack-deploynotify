@@ -1,0 +1,33 @@
+{
+  "name": "ops-tools-slack-deploynotify",
+  "version": "0.0.1",
+  "description": "Slack Bot for notifying channels about platform deployments",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Teooh/ops-tools-slack-deploynotify.git"
+  },
+  "author": "Stephen Wright (steve@teooh.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teooh/ops-tools-slack-deploynotify/issues"
+  },
+  "homepage": "https://github.com/Teooh/ops-tools-slack-deploynotify#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.1.2"
+  }
+}
